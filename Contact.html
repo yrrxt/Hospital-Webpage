@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Trust Care Hospital</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,700,0,0" />
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: sienna;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: darkorange;
+}
+
+.topnav a {
+  float: right;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.topnav a:hover {
+  background-color: brown;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: sienna;
+  color: azure
+}
+h1{
+    font-size: 70px;
+    text-align: center;
+}
+h2{
+    font-size: 30px;
+    text-align: center;
+}
+form .form-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#email,
+#name,
+textarea {
+    width: 70%;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding: 13px 33px;
+    border: 1px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: rgb(239, 119, 64);
+    resize: vertical;
+    border-radius: 20px;
+    margin-left: 150px;
+}
+#email,
+#name,
+textarea:focus {
+    outline: none;
+}
+
+form #btn {
+    margin-top: 20px;
+    border: none;
+    text-align: center;
+    font-size: 18px;
+    padding: 12px 30px;
+    border-radius: 20px;
+    background-color: darkorange;
+    cursor: pointer;
+    margin-left: 150px;
+    
+}
+
+form #btn:hover {
+    border: darkorange 1px solid;
+    background-color: rgb(141, 88, 24);
+    box-shadow: 0 12px 16px 0 orange,0 17px 50px 0 orange;
+}
+p{
+  font-size: 20px;
+  margin-left: 260px;
+  margin-right: 260px;
+}
+h3{
+  font-size: 24px;
+    text-align: center;
+}
+h4{
+  text-align: center;
+  font-size: 24px;
+  color: rgb(106, 12, 12);
+}
+.avatar{
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  text-align: center;
+  margin-left: 320px;
+}
+</style>
+</head>
+<body>
+
+            <!---------navbar section--------->
+<div class="topnav">
+    <a href="News.html">News</a>
+    <a class="active" href="Contact.html">Contact</a>
+    <a href="About.html">About</a>
+    <a href="Index.html">Home</a>
+</div>
+
+<h1><u>CONTACT US</u></h1>
+<h2><u>CONTACTS</u></h2>
+<form action="https://formspree.io/f/xyylqnpp" method="POST">
+  <input type="email" id="email" placeholder="Enter your email" name="email" required="" />
+  <input type="text" id="name" placeholder="Enter your name" name="name" required="" />
+  <textarea type="text" id="message" placeholder="Enter message" name="message" required=""></textarea><br />
+  <input type="submit" value="Send" id="btn" /><br><br>
+</form>
+
+<br><br><h4><i>EMERGENCY CONTACT: 0700 555 555</i></h4><br><br>
+
+<h2><u><span class="material-symbols-outlined">schedule</span>VISITING HOURS</u></h2>
+<P>Due to COVID 19 restrictions, patients are only allowed two visitors per day. We do not allow any food or flowers in the clinical areas.<br></P>
+<h3>Daily, 2.00pm - 4.00pm</h3>
+<br>
+<br>
+<h2><u><span class="material-symbols-outlined">location_on</span>LOCATIONS</u></h2>
+<P><b>Main Hospital</b><br>
+  Argwings Kodhek Road<br>
+  P.O.Box 30026 – 00100<br>
+  Nairobi, Kenya<br>
+  Tel: +254 (0)20 2845000/+254 (0)20 2846000<br>
+  Mobile: +254 (0)703 082000/+254 (0)730 666000<br>
+  Email: hosp@trustcarehosp.org</P><br>
+  
+  <p><b>Convention Centre</b><br>
+    Trust Care Hospital, Argwings Kodhek Road<br>
+    Anderson Centre, 2nd Floor<br>
+    Tel: +254 (0) 730 666888/+254 (0)703 082000<br>
+    Email: conventioncentre@trustcarehosp.org</p>
+
+    <h2><u><span class="material-symbols-outlined">outpatient</span>OUTPATIENT CENTRES</u></h2>
+    <p><b>Capital Centre-Outpatient Centre</b><br>
+      Capital Centre, 1st Floor, above DTB Bank, <br>
+      Mombasa Road<br>
+      Tel: +254 (0) 723 976587/+254 (0) 723 976571<br>
+      Email: capitalcentre@trustcarehosp.org</p>
+
+      <p><b>Rosslyn Riviera-Outpatient Centre</b><br>
+        Rosslyn Riviera Mall, 3rd Floor,<br>
+        Limuru Rd<br>
+        Tel: +254 (0) 780 355766/+254 (0) 730 656000<br>
+        Email: rosslynriviera@trustcarehosp.org</p>
+
+        <h2><u>HOW TO GET HERE</u></h2>
+        <p><b><span class="material-symbols-outlined">directions_car</span>Parking Spaces</b><br>
+          We have ample parking space where your car will be safe.</p><br>
+          <p><b><span class="material-symbols-outlined">directions_bus</span>Bus Routes</b><br>
+            The hospital is accessible by public means. Board a number 46 bus from Kencom House along Moi Avenue. The bus will drop you right at the hospital gate.</p><br>
+            <p><b><span class="material-symbols-outlined">accessible</span>Accessibility</b><br>
+              We have ramps around the hospital for easy accessibility.</p><br>
+              <br>
+              <br>
+              <br>
+              <img src="./images/Twitter App Icon.jpg" alt="Avatar" class="avatar">
+              <img src="./images/Instagram free icons designed by Freepik.jpg" alt="Avatar" class="avatar">
+              <img src="./images/Free Fall Aesthetic App Icons _ Guitar & Lace.jpg" alt="Avatar" class="avatar">
+              <br><br><br>
+
+</body>
+</html>
